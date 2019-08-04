@@ -52,10 +52,10 @@ echo $me"       ¶¶¶¶                                     ¶¶¶¶"
 echo
 echo
 echo $cy "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo $i  "AUTHOR     : CyberOgi"
-echo $i  "WA              : 085340685864"
-echo $i  "Instagram : Afdaal_"
-echo $i  "TOOLS           : INSTALLER (7 TOOLS)"
+echo $i  "AUTHOR   : Afdal"
+echo $i  "WA       : 085340685864"
+echo $i  "Instgram : Afdaal_"
+echo $i  "TOOLS    : INSTALLER (7 TOOLS)"
 echo $cy "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo
 echo
@@ -91,7 +91,7 @@ pkg install git -y
 pkg install python2 -y
 git clone https://github.com/FR13ND8/BRUTEFORCEnew
 cd BRUTEFORCEnew
-badh new.sh
+sh new.sh
 fi
 
 if [ $pil = 2 ]
@@ -115,6 +115,7 @@ then
 clear
 git clone https://github.com/zlucifer/termux_alice
 cd termux_alice
+sh alice.sh
 fi
 
 if [ $pil = 5 ]
@@ -122,7 +123,7 @@ then
 clear
 git clone https://github.com/zlucifer/paladin_project
 cd paladin_project
-bash,paladin.sh
+sh paladin.sh
 fi
 
 if [ $pil = 6 ]
@@ -150,7 +151,7 @@ echo $cy"Terima Kasih Sudah Pakai Tool Saya"
 sleep 2
 echo $i"Bila Ada Bug  Bisa Nanya Kepada Saya"
 sleep 2
-echo $i"WhatsApp :"$i" 085350685864"
-echo $bi"Facebook :"$i" Afdall"
+echo $i"WhatsApp :"$i" 085340685865"
+echo $bi"Facebook :"$i" Afdal"
 exit
 fi
